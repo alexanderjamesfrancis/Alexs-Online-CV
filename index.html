@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2970fe407c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Tailwind Starter</title>
 </head>
@@ -17,17 +21,17 @@
             <div>
                 <a href="index.html" class="text-2xl px-6 py-4">Alex Francis</a>
             </div>
-            <div class="px-4 flex flex-col md:flex-row group">
-                <a href="about-me.html" class="text-2xl px-4 hover:text-blue-300 border-b-2">About Me</a>
-                <a href="employment-history.html" class="text-2xl px-4 hover:text-blue-300 border-b-2">Employment History</a>
-                <a href="portfolio.html" class="text-2xl px-4 hover:text-blue-300 border-b-2">Portfolio</a>
-                <a href="contact-me.html" class="text-2xl px-4 hover:text-blue-300 border-b-2">Contact Me</a>
+            <div class="px-4 flex flex-col md:flex-row font-serif group">
+                <a href="about-me.html" class="text-2xl text-center px-4 hover:text-blue-300 border-b-2">About Me</a>
+                <a href="employment-history.html" class="text-2xl text-center px-4 hover:text-blue-300 border-b-2">Employment History</a>
+                <a href="portfolio.html" class="text-2xl px-4 text-center hover:text-blue-300 border-b-2">Portfolio</a>
+                <a href="contact-me.html" class="text-2xl px-4 text-center hover:text-blue-300 border-b-2">Contact Me</a>
             </div>
         </div>
     </nav>
     <!--Title Body-->
     <section class="brick">
-       <div class="container flex-grow min-w-full h-screen bg-brick">
+       <div class="container font-serif flex-grow min-w-full h-screen bg-brick">
             <div class="flex flex-col space-y-6 mx-auto justify-center items-center py-40 p-6">
                 <h2 class="font-semibold text-center text-4xl">
                     Welcome to the CV of Alexander James Francis
@@ -35,19 +39,41 @@
                 <h4 class="font-base text-2xl">
                     Just Alex is fine though!
                 </h4>
-                <h5 clas=text-lg>
-                    An Aspiring Web Developer and Programmer
-                </h5>
+                
                 <div class="flex md:h-1/2 md:w-1/2">
                     <img src="images/alex_image-modified.png" class="" alt="">
                 </div>
+                <div>
+                    <h5 class="text-lg mt-16 font-semibold" >
+                        An Aspiring Web Developer and Programmer
+                    </h5>
+                </div>
+                
             </div>
             
        </div> 
 
     </section>
+    <footer>
+        <div class="footer flex items-center justify-center space-x-4 py-4">
+            <div class="group">
+                <i class="fa-brands fa-linkedin"></i>
+                <a class="footer-link group-hover:text-blue-300" href=https://www.linkedin.com/in/alex-francis-6568686b/">LinkedIn</a>
+            </div>
+            <div class="group">
+                <i class="fa-brands fa-github"></i>
+                <a class="footer-link group-hover:text-blue-300" href="https://github.com/alexanderjamesfrancis">Github</a>
+            </div>
+            <div class="group">
+                <i class="fa-solid fa-newspaper"></i>
+                <a class="footer-link " href="downloads/Alexander Francis.docx" download ="CV of Alexander Francis 2022">CV Download</a>
+            </div>
+            
+            
+          </div>
+          <p class="flex justify-center">© 2022 Alex Francis.</p>
+    </footer>
 
-    
 
 </body>
 </html>
