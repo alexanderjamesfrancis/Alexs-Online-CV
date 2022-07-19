@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .brick {
-    background-image: url('images\brick_background.jpg');
+    background-image: url('../images/brick_background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
