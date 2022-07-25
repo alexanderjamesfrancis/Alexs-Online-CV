@@ -1,3 +1,7 @@
+'use strict'
+
+//Navbar dropdown
+
 const btn = document.getElementById('menu-btn')
 const menu = document.getElementById('menu')
 
@@ -8,3 +12,4 @@ function navToggle(){
     menu.classList.toggle('flex')
     menu.classList.toggle('hidden')
 }
+
